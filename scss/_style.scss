@@ -4,7 +4,6 @@
     height: $size07;
     @include g-flex (flex, flex-end, center);
     padding: 6px;
-    // margin-top: 0px;
      h4 {
       font-family: Arial, Helvetica, sans-serif;
       font-size: $fsize01;
@@ -15,7 +14,7 @@
       }
     }
     .t2 {
-      margin-left: 15px;
+      margin-left: $fsize03;
       margin-right: 11px;
     }
     .google-grid {
@@ -52,16 +51,23 @@
       }
       .input-box {
         position: relative;
+        @media (max-width: 663px) {
+          width: 482px;
+        }
       input {
         width: 582px;
         height: 44px;
         border: 1px solid #dfe1e5;
         border-radius: 24px;
-        margin-bottom: 18px;
+        margin-bottom: $size12;
         &:hover {
           background-color: #fff;
           box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
           border-color: rgba(223,225,229,0);
+        }
+        @media (max-width: 663px) {
+          width: 482px;
+          margin: 0 auto;
         }
       }
       .fa-magnifying-glass {
@@ -69,33 +75,33 @@
         top: 0px;
         left: 0px;
         color: $color05;
-        font-size: 14px;
-        padding: 15px 16px 0px 18px;
+        font-size: $fsize02;
+        padding: $fsize03 $size04 0px $size12;
       }
       .voice {
         position: absolute;
         top: -28px;
         right: 60px;
-        width: 14px;
+        width: $fsize02;
       }
       .camera {
         position: absolute;
         top: -30px;
-        right: 16px;
+        right: $size04;
         width: 24px;
 
       }
     }
       .btn-box {
         @include g-flex (flex, center, center);
-        width: 584px;
-        height: 58px;
+        width: $size03;
+        height: $size10;
         .btn {
           font-size: $fsize02;
           color: $color10;
           background-color: $color02;
-          margin: 14px 6px;
-          padding: 0 16px;
+          margin: $fsize02 6px;
+          padding: 0 $size04;
           height: 36px;
           border: none;
           border-radius: 4px;
@@ -104,8 +110,60 @@
             border: 1px solid #dfe1e5;
           }
         }
+        @media (max-width:663) {
+          width: 483px;
+        }
+      }
+      .langs {
+        font-size: $fsize01;
+        color: $color11;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: $size01;
+      }
+      .t-a {
+        font-size: $fsize01;
+        color: $color12;
+        padding: 0px 3px;
+      }
+      @media (max-width: 663px) {
+        width: 484px;
       }
     }
   }
 
+}
+.footer {
+  height: $size09;
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  background-color: $color03;
+  @media (max-width: 663px) {
+    height: 141px;
+  }
+  .georgia {
+    font-size: $fsize03;
+    color: $color06;
+    padding: $fsize03 $size11;
+    border-bottom: 1px solid #dadce0;
+  }
+  .list-box {
+    @include g-flex(flex, space-between, center);
+    @media (max-width: 663px) {
+     flex-direction: column;
+    @include g-flex(flex, space-evenly, center);
+    }
+      ul {
+      display: flex;
+      padding: 0px $size01;
+        li {
+        padding: $fsize03;
+          a {
+          font-size: $fsize02;
+          color: $color06;
+        }
+      }
+    }
+  }
 }
