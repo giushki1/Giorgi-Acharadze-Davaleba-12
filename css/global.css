@@ -74,17 +74,22 @@ input {
 }
 .section-1 .sec-1-box .t2 {
   margin-left: 15px;
-  margin-right: 26px;
+  margin-right: 11px;
 }
-.section-1 .sec-1-box .fa-solid {
-  font-size: 16px;
-  height: 20px;
-  margin-top: 8px;
+.section-1 .sec-1-box .google-grid {
+  width: 26px;
+  height: 24px;
+  margin-top: 4px;
+  margin-right: 6px;
   color: #5F6368;
+}
+.section-1 .sec-1-box .google-grid:hover {
+  background-color: #9AA0A6;
+  border-radius: 50%;
 }
 .section-1 .sec-1-box img {
   border-radius: 50%;
-  margin-right: 8px;
+  margin-right: 10px;
   margin-left: 15px;
 }
 
@@ -101,15 +106,43 @@ input {
 }
 .section-2 .container .content-box img {
   width: 272px;
-  margin-top: 40px;
-  margin-bottom: 20px;
+  margin-top: 41px;
+  margin-bottom: 28px;
 }
-.section-2 .container .content-box input {
+.section-2 .container .content-box .input-box {
+  position: relative;
+}
+.section-2 .container .content-box .input-box input {
   width: 582px;
   height: 44px;
   border: 1px solid #dfe1e5;
   border-radius: 24px;
   margin-bottom: 18px;
+}
+.section-2 .container .content-box .input-box input:hover {
+  background-color: #fff;
+  box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+  border-color: rgba(223, 225, 229, 0);
+}
+.section-2 .container .content-box .input-box .fa-magnifying-glass {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  color: #9AA0A6;
+  font-size: 14px;
+  padding: 15px 16px 0px 18px;
+}
+.section-2 .container .content-box .input-box .voice {
+  position: absolute;
+  top: -28px;
+  right: 60px;
+  width: 14px;
+}
+.section-2 .container .content-box .input-box .camera {
+  position: absolute;
+  top: -30px;
+  right: 16px;
+  width: 24px;
 }
 .section-2 .container .content-box .btn-box {
   display: flex;
@@ -122,7 +155,7 @@ input {
   font-size: 14px;
   color: #3c4043;
   background-color: #F8F9FA;
-  margin: 11px 4px;
+  margin: 14px 6px;
   padding: 0 16px;
   height: 36px;
   border: none;
