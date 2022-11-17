@@ -125,9 +125,30 @@ a {
     width: 482px;
   }
 }
+@media (max-width: 500px) {
+  .section-2 .container .content-box .input-box {
+    width: 450px;
+  }
+}
+@media (max-width: 470px) {
+  .section-2 .container .content-box .input-box {
+    width: 400px;
+  }
+}
+@media (max-width: 420px) {
+  .section-2 .container .content-box .input-box {
+    width: 350px;
+  }
+}
+@media (max-width: 380px) {
+  .section-2 .container .content-box .input-box {
+    width: 290px;
+  }
+}
 .section-2 .container .content-box .input-box input {
   width: 582px;
   height: 44px;
+  padding-left: 50px;
   border: 1px solid #dfe1e5;
   border-radius: 24px;
   margin-bottom: 18px;
@@ -141,6 +162,26 @@ a {
   .section-2 .container .content-box .input-box input {
     width: 482px;
     margin: 0 auto;
+  }
+}
+@media (max-width: 500px) {
+  .section-2 .container .content-box .input-box input {
+    width: 450px;
+  }
+}
+@media (max-width: 470px) {
+  .section-2 .container .content-box .input-box input {
+    width: 400px;
+  }
+}
+@media (max-width: 420px) {
+  .section-2 .container .content-box .input-box input {
+    width: 350px;
+  }
+}
+@media (max-width: 380px) {
+  .section-2 .container .content-box .input-box input {
+    width: 290px;
   }
 }
 .section-2 .container .content-box .input-box .fa-magnifying-glass {
@@ -170,6 +211,26 @@ a {
   width: 584px;
   height: 58px;
 }
+@media (max-width: 584px) {
+  .section-2 .container .content-box .btn-box {
+    width: 450px;
+  }
+}
+@media (max-width: 470px) {
+  .section-2 .container .content-box .btn-box {
+    width: 400px;
+  }
+}
+@media (max-width: 420px) {
+  .section-2 .container .content-box .btn-box {
+    width: 350px;
+  }
+}
+@media (max-width: 380px) {
+  .section-2 .container .content-box .btn-box {
+    width: 300px;
+  }
+}
 .section-2 .container .content-box .btn-box .btn {
   font-size: 14px;
   color: #3c4043;
@@ -180,14 +241,10 @@ a {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  border: 1px solid transparent;
 }
 .section-2 .container .content-box .btn-box .btn:hover {
   border: 1px solid #dfe1e5;
-}
-@media (max-width: 663) {
-  .section-2 .container .content-box .btn-box {
-    width: 483px;
-  }
 }
 .section-2 .container .content-box .langs {
   font-size: 13px;
@@ -197,12 +254,37 @@ a {
 }
 .section-2 .container .content-box .t-a {
   font-size: 13px;
-  color: #681da8;
   padding: 0px 3px;
 }
 @media (max-width: 663px) {
   .section-2 .container .content-box {
     width: 484px;
+  }
+}
+@media (max-width: 584px) {
+  .section-2 .container .content-box {
+    width: 482px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 500px) {
+  .section-2 .container .content-box {
+    width: 450px;
+  }
+}
+@media (max-width: 470px) {
+  .section-2 .container .content-box {
+    width: 400px;
+  }
+}
+@media (max-width: 420px) {
+  .section-2 .container .content-box {
+    width: 350px;
+  }
+}
+@media (max-width: 380px) {
+  .section-2 .container .content-box {
+    width: 300px;
   }
 }
 
