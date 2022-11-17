@@ -315,7 +315,11 @@ a {
 }
 .section-2 .t-a {
   font-size: 13px;
+  color: #1a0dab;
   padding: 0px 3px;
+}
+.section-2 .t-a:hover {
+  text-decoration: underline;
 }
 @media (max-width: 663px) {
   .section-2 {

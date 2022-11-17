@@ -197,7 +197,11 @@
       }
       .t-a {
         font-size: $fsize01;
+        color: #1a0dab;
         padding: 0px 3px;
+        &:hover {
+          text-decoration: underline;
+        }
       }
       @media (max-width: 663px) {
         width: 484px;
