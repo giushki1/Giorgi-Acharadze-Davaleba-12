@@ -173,7 +173,6 @@
         @media (max-width: 663px) {
           display: none;
         }
-  
         .btn {
           font-size: $fsize02;
           color: $color10;
@@ -202,6 +201,7 @@
       }
       @media (max-width: 663px) {
         width: 484px;
+        margin: 0 auto;
       }
       @media (max-width: 584px) {
         width: 482px;
