@@ -48,6 +48,21 @@
         width: $size02;
         margin-top: 41px;
         margin-bottom: 28px;
+        @media (max-width: 663px) {
+          width: 240px;
+        }
+        @media (max-width:584px) {
+          width: 210px;
+        }
+        @media (max-width:470px) {
+          width:180px;
+        }
+        @media (max-width:420px) {
+          width:150px;
+        }
+        @media (max-width:380px) {
+          width:120px;
+        }
       }
       .input-box {
         position: relative;
@@ -84,15 +99,18 @@
         }
         @media (max-width:500px) {
           width:450px;
+          height: 40px;
         }
         @media (max-width:470px) {
           width:400px;
+          height: 38px;
         }
         @media (max-width:420px) {
           width:350px;
         }
         @media (max-width:380px) {
           width:290px;
+          height: 37px;
         }
       }
       .fa-magnifying-glass {
@@ -102,37 +120,60 @@
         color: $color05;
         font-size: $fsize02;
         padding: $fsize03 $size04 0px $size12;
+        @media (max-width:380px) {
+         font-size: 12px;
+         padding-top: 13px;
+        }
       }
       .voice {
         position: absolute;
         top: -28px;
         right: 60px;
         width: $fsize02;
+        @media (max-width:500px) {
+          width: 13px;
+        }
+        @media (max-width:470px) {
+          width: 12px;
+          right: 50px;
+        }
+        @media (max-width:420px) {
+          width: 11px;
+        }
+        @media (max-width:380px) {
+          width: 10px;
+          right: 40px;
+        }
+      }
       }
       .camera {
         position: absolute;
         top: -30px;
         right: $size04;
         width: 24px;
-
+        @media (max-width:500px) {
+          width: 20px;
+        }
+        @media (max-width:470px) {
+          width: 18px;
+        }
+        @media (max-width:420px) {
+          width: 18px;
+        }
+        @media (max-width:380px) {
+          width: 17px;
+        }
+      }
       }
     }
       .btn-box {
         @include g-flex (flex, center, center);
         width: $size03;
         height: $size10;
-        @media (max-width:584px) {
-          width: 450px;
+        @media (max-width: 663px) {
+          display: none;
         }
-        @media (max-width:470px) {
-          width:400px;
-        }
-        @media (max-width:420px) {
-          width:350px;
-        }
-        @media (max-width:380px) {
-          width:300px;
-        }
+  
         .btn {
           font-size: $fsize02;
           color: $color10;
@@ -179,9 +220,6 @@
         width:300px;
       }
     }
-  }
-
-}
 .footer {
   height: $size09;
   width: 100%;

@@ -117,6 +117,31 @@ a {
   margin-top: 41px;
   margin-bottom: 28px;
 }
+@media (max-width: 663px) {
+  .section-2 .container .content-box img {
+    width: 240px;
+  }
+}
+@media (max-width: 584px) {
+  .section-2 .container .content-box img {
+    width: 210px;
+  }
+}
+@media (max-width: 470px) {
+  .section-2 .container .content-box img {
+    width: 180px;
+  }
+}
+@media (max-width: 420px) {
+  .section-2 .container .content-box img {
+    width: 150px;
+  }
+}
+@media (max-width: 380px) {
+  .section-2 .container .content-box img {
+    width: 120px;
+  }
+}
 .section-2 .container .content-box .input-box {
   position: relative;
 }
@@ -167,11 +192,13 @@ a {
 @media (max-width: 500px) {
   .section-2 .container .content-box .input-box input {
     width: 450px;
+    height: 40px;
   }
 }
 @media (max-width: 470px) {
   .section-2 .container .content-box .input-box input {
     width: 400px;
+    height: 38px;
   }
 }
 @media (max-width: 420px) {
@@ -182,6 +209,7 @@ a {
 @media (max-width: 380px) {
   .section-2 .container .content-box .input-box input {
     width: 290px;
+    height: 37px;
   }
 }
 .section-2 .container .content-box .input-box .fa-magnifying-glass {
@@ -192,46 +220,79 @@ a {
   font-size: 14px;
   padding: 15px 16px 0px 18px;
 }
+@media (max-width: 380px) {
+  .section-2 .container .content-box .input-box .fa-magnifying-glass {
+    font-size: 12px;
+    padding-top: 13px;
+  }
+}
 .section-2 .container .content-box .input-box .voice {
   position: absolute;
   top: -28px;
   right: 60px;
   width: 14px;
 }
-.section-2 .container .content-box .input-box .camera {
+@media (max-width: 500px) {
+  .section-2 .container .content-box .input-box .voice {
+    width: 13px;
+  }
+}
+@media (max-width: 470px) {
+  .section-2 .container .content-box .input-box .voice {
+    width: 12px;
+    right: 50px;
+  }
+}
+@media (max-width: 420px) {
+  .section-2 .container .content-box .input-box .voice {
+    width: 11px;
+  }
+}
+@media (max-width: 380px) {
+  .section-2 .container .content-box .input-box .voice {
+    width: 10px;
+    right: 40px;
+  }
+}
+.section-2 .container .content-box .camera {
   position: absolute;
   top: -30px;
   right: 16px;
   width: 24px;
 }
-.section-2 .container .content-box .btn-box {
+@media (max-width: 500px) {
+  .section-2 .container .content-box .camera {
+    width: 20px;
+  }
+}
+@media (max-width: 470px) {
+  .section-2 .container .content-box .camera {
+    width: 18px;
+  }
+}
+@media (max-width: 420px) {
+  .section-2 .container .content-box .camera {
+    width: 18px;
+  }
+}
+@media (max-width: 380px) {
+  .section-2 .container .content-box .camera {
+    width: 17px;
+  }
+}
+.section-2 .btn-box {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 584px;
   height: 58px;
 }
-@media (max-width: 584px) {
-  .section-2 .container .content-box .btn-box {
-    width: 450px;
+@media (max-width: 663px) {
+  .section-2 .btn-box {
+    display: none;
   }
 }
-@media (max-width: 470px) {
-  .section-2 .container .content-box .btn-box {
-    width: 400px;
-  }
-}
-@media (max-width: 420px) {
-  .section-2 .container .content-box .btn-box {
-    width: 350px;
-  }
-}
-@media (max-width: 380px) {
-  .section-2 .container .content-box .btn-box {
-    width: 300px;
-  }
-}
-.section-2 .container .content-box .btn-box .btn {
+.section-2 .btn-box .btn {
   font-size: 14px;
   color: #3c4043;
   background-color: #F8F9FA;
@@ -243,47 +304,47 @@ a {
   cursor: pointer;
   border: 1px solid transparent;
 }
-.section-2 .container .content-box .btn-box .btn:hover {
+.section-2 .btn-box .btn:hover {
   border: 1px solid #dfe1e5;
 }
-.section-2 .container .content-box .langs {
+.section-2 .langs {
   font-size: 13px;
   color: #4d5156;
   font-family: Arial, Helvetica, sans-serif;
   margin-top: 20px;
 }
-.section-2 .container .content-box .t-a {
+.section-2 .t-a {
   font-size: 13px;
   padding: 0px 3px;
 }
 @media (max-width: 663px) {
-  .section-2 .container .content-box {
+  .section-2 {
     width: 484px;
   }
 }
 @media (max-width: 584px) {
-  .section-2 .container .content-box {
+  .section-2 {
     width: 482px;
     margin: 0 auto;
   }
 }
 @media (max-width: 500px) {
-  .section-2 .container .content-box {
+  .section-2 {
     width: 450px;
   }
 }
 @media (max-width: 470px) {
-  .section-2 .container .content-box {
+  .section-2 {
     width: 400px;
   }
 }
 @media (max-width: 420px) {
-  .section-2 .container .content-box {
+  .section-2 {
     width: 350px;
   }
 }
 @media (max-width: 380px) {
-  .section-2 .container .content-box {
+  .section-2 {
     width: 300px;
   }
 }
