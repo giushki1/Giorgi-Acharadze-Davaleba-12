@@ -1,2 +1,3 @@
 # Giorgi-Acharadze-Davaleba-12
-SCSS practice
+SCSS practice.
+Created Google Clone page with SCSS.
